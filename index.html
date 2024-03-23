@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="score-board"><span id="your-score">0</span> - <span id="comp-score">0</span></div>
+        <div id="game-div">
+            <div class="game">
+                <h3>You</h3>
+                <img id="selected-img" src="" alt="img">
+                <div class="action-div">
+                    <img id="rock"   src="./assets/rock-logo.png" alt="">
+                    <img id="paper" src="./assets/paper-logo.png" alt="">
+                    <img id="scissors" src="./assets/scissors-logo.png" alt="">
+                </div>
+            </div>
+
+            <div>
+                <img src="./assets/vs.png" alt="image">
+            </div>
+
+            <div class="game">
+                <h3 class="align-top">Comp</h3>
+                <img id="comp-img" src="" alt="img">
+            </div>
+        </div>
+
+        <div class="winner-div">
+            <h3><span id="winner"></span> </h3>
+            <button id="play-again">Play again</button>
+        </div>
+    </div> 
+</body>
+<script src="./app.js"></script>
+</html>
